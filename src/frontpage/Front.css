@@ -1,0 +1,21 @@
+.Front{
+    background-image: url(/bg2.jpg);
+    background-size: cover;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #00C0C0;
+    border-radius: 9999px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #008080;
+  }
