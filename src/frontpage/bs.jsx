@@ -16,7 +16,7 @@ const Bs = ({ onAddToOrder }) => {
 
   return (
     <main className="flex items-center justify-center  pb-8 relative">
-      <div className="grid gap-8 mt-48 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 ">
+      <div className="grid gap-8 mt-56 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 ">
         {menuItems.map((item) => (
           <div key={item.id} className="border rounded-lg p-3 backdrop-blur-md">
             <img

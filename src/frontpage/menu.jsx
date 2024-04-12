@@ -62,7 +62,7 @@ const Menu = () => {
 
   return (
     <>
-      <button onClick={toggleSidebar} className="fixed mt-48 left-2 z-50 lg:hidden text-teal-900 bg-gray-100 p-1 border-2 border-teal-900 rounded-lg font-semibold">
+      <button onClick={toggleSidebar} className="fixed mt-52 left-2 z-50 lg:hidden text-teal-900 bg-gray-100 p-1 border-2 border-teal-900 rounded-lg font-semibold">
         {collapsed ? <img src="./menu.gif" className="w-10 h-10"/> : <img src="./cross.gif" className="w-10 h-10"/>}
       </button>
       <aside
@@ -157,7 +157,7 @@ const Menu = () => {
       {activeSection === "section6" && (
         <Sweet onAddToOrder={handleAddToOrder} />
       )}
-      <button onClick={toggleOrder} className="fixed top-48 right-2 z-50 lg:hidden text-teal-900 bg-gray-100 p-1 border-2 border-teal-900 rounded-lg font-semibold">
+      <button onClick={toggleOrder} className="fixed top-52 right-2 z-50 lg:hidden text-teal-900 bg-gray-100 p-1 border-2 border-teal-900 rounded-lg font-semibold">
         {orderCollapsed ? <img src="./order.gif" className="w-10 h-10"/> : <img src="./cross.gif" className="w-10 h-10"/>}
       </button>
       <div
