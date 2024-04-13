@@ -17,7 +17,7 @@ const Delivery = () => {
             <h2 className="text-2xl font-bold mb-4 text-teal-200">
               Your is order confirmed and will be delivered shortly...
             </h2>
-            <img src="/delivery.gif" className="rounded-full w-36 h-36" />
+            <img src="/del.gif" className="rounded-full w-36 h-36" />
           </div>
             <button
             onClick={handleToFront}
