@@ -12,12 +12,12 @@ const Delivery = () => {
     <>
       <div className="flex flex-col min-h-screen">
         <div className="flex-1">
-          <div className="mt-36 sm:mt-42 mb-44 max-w-[45rem] mx-auto border-2 rounded-tl-3xl rounded-br-3xl p-8 backdrop-blur-xl text-teal-300 shadow-xl">
+          <div className="mt-44 mb-44 w-auto max-w-[40rem] mx-auto border-2 rounded-tl-3xl rounded-br-3xl p-6 backdrop-blur-xl text-teal-300 shadow-xl">
           <div className="flex items-center justify-between ">
             <h2 className="text-2xl font-bold mb-4 text-teal-200">
               Your is order confirmed and will be delivered shortly...
             </h2>
-            <img src="/delivery.gif" className="rounded-full w-40 h-40" />
+            <img src="/delivery.gif" className="rounded-full w-36 h-36" />
           </div>
             <button
             onClick={handleToFront}
